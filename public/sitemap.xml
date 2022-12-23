@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.example.com/services/accounting/</loc>
+    <loc>https://www.example.com/features/accounting/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/work/fall-plaza/</loc>
+    <loc>https://www.example.com/highlight/fall-plaza/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/work/modern-hospital/</loc>
+    <loc>https://www.example.com/qa/fall-plaza/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/tax-filing/</loc>
+    <loc>https://www.example.com/highlight/modern-hospital/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/work/cargo-terminal/</loc>
+    <loc>https://www.example.com/qa/modern-hospital/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url><url>
+    <loc>https://www.example.com/features/tax-filing/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url><url>
+    <loc>https://www.example.com/highlight/cargo-terminal/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url><url>
+    <loc>https://www.example.com/qa/cargo-terminal/</loc>
     <lastmod>2018-11-18T12:33:46+10:00</lastmod>
   </url><url>
     <loc>https://www.example.com/about/</loc>
@@ -26,16 +35,16 @@
     <loc>https://www.example.com/pages/</loc>
     <lastmod>2018-12-06T09:29:16+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/mergers/</loc>
+    <loc>https://www.example.com/features/mergers/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/business-sales/</loc>
+    <loc>https://www.example.com/features/business-sales/</loc>
     <lastmod>2018-11-28T15:15:26+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/superannuation/</loc>
+    <loc>https://www.example.com/features/superannuation/</loc>
     <lastmod>2018-11-28T15:14:54+10:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/business-advisory/</loc>
+    <loc>https://www.example.com/features/business-advisory/</loc>
     <lastmod>2018-11-28T15:14:39+10:00</lastmod>
   </url><url>
     <loc>https://www.example.com/contact/</loc>
@@ -44,10 +53,13 @@
     <loc>https://www.example.com/</loc>
     <lastmod>2018-02-12T15:37:57+07:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/services/</loc>
+    <loc>https://www.example.com/features/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url><url>
-    <loc>https://www.example.com/work/</loc>
+    <loc>https://www.example.com/highlight/</loc>
+    <lastmod>2018-02-10T11:52:18+07:00</lastmod>
+  </url><url>
+    <loc>https://www.example.com/qa/</loc>
     <lastmod>2018-02-10T11:52:18+07:00</lastmod>
   </url><url>
     <loc>https://www.example.com/404/</loc>
