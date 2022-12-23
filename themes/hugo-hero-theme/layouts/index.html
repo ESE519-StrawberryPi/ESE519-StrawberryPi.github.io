@@ -64,7 +64,7 @@
       <div class="col-12 col-md-8 text-center text-white">
         <h2>{{ .Title }}</h2>
         {{ .Content }}
-        <a class="button button-white" href="{{ .Params.buttonLink | relURL }}">{{ .Params.button }}</a>
+        <a class="button button-white" {{ .Params.buttonLink | relURL }}>{{ .Params.button }}</a>
       </div>
     </div>
   </div>
