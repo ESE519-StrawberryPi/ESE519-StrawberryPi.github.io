@@ -1,4 +1,4 @@
-baseURL = "https://www.example.com/"
+baseURL = "https://ese519-strawberrypi.github.io/"
 languageCode = "en-us"
 title = "Hugo Hero Theme"
 themesDir = "themes"
