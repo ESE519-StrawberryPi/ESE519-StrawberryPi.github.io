@@ -5,7 +5,7 @@
 {{ define "main" }}
 {{ partial "hero-image-setheight.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
 
-{{ $headless := .Site.GetPage "/pages/design" }}
+{{ $headless := .Site.GetPage "/pages/highlight" }}
 {{ $subpages := $headless.Resources.ByType "page" }}
 {{ $subpages := sort $subpages ".Params.weight" }}
 {{ range $subpages }}
