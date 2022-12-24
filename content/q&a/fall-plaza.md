@@ -1,21 +1,18 @@
 ---
-title: 'Fall Plaza'
+title: 'PWM Signal Noise'
 date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 1
-heroHeading: 'Fall Plaza'
+heroHeading: 'PWM Signal Noise'
 heroSubHeading: 'Revitalising a public space in Spain.'
-heroBackground: 'work/work1.jpg'
-thumbnail: 'work/work1-thumbnail.jpg'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+heroBackground: 'work/song-before.jpeg'
+thumbnail: 'work/song-before.jpeg'
+images: ['work/song-before.jpeg', 'work/song-after.jpeg', 'work/1-before.jpeg', 'work/1-after.jpeg', 'work/demo.jpg']
 ---
+Using an additional electric capacity to filter high frequency noise.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+We could generate the sounds and send them to the speaker by utilizing the PWM PIO module. We found some apparent loss in the sound quality when listening to the speaker after the amplifier.  By using the oscilloscope in Detkin Lab, we find out there is a very obvious overshooting at the beginning of each PWM signal period.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+For both methods we deployed here, i.e., using different clocks and frequencies or using different duty ratios, the overshooting could not be negligible.
+
+We got some advice from Professor Dalton about the loss in audio quality. According to Professor Dalton, a low pass filter would be helpful to filter out those high-frequency noises. With TA Bhagath Cheela, we can filter almost all those high-frequency noises by parallel connecting a 1 nF capacitance with the speaker and amplifier. The filter result is shown as follows:
