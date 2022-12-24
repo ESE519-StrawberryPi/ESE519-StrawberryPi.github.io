@@ -31,7 +31,7 @@ theme = "hugo-hero-theme"
     meta_twitter_card = "summary"
 
 [[menu.main]]
-name = "home"
+name = "Home"
 url = "/"
 weight = -1
 
