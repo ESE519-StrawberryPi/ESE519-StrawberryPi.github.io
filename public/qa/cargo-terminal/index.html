@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Cargo Terminal - Strawberry Pi 🍑</title>
+  <title>Pressing Sample - Strawberry Pi 🍑</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://ese519-strawberrypi.github.io/favicon.png">
@@ -71,10 +71,10 @@
     <div class='header header-absolute'>
   <div class="container">
     <div class="logo">
-      <a href="https://ese519-strawberrypi.github.io/"><img height=29px width=36px alt="Hugo Hero" src="/images/logo.svg" /></a>
+      <a href="https://ese519-strawberrypi.github.io/"><img height=29px width=36px alt="Hugo Hero" src="/images/logo.jpeg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="https://ese519-strawberrypi.github.io/"><img height=36px width=36px alt="Hugo Hero" src="/images/logo-mobile.svg" /></a>
+      <a href="https://ese519-strawberrypi.github.io/"><img height=36px width=36px alt="Hugo Hero" src="/images/logo.jpeg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
@@ -132,12 +132,12 @@
   </div>
 </div>
     
-<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('https://source.unsplash.com/tjX_sniNzgQ/1600x400')">
+<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('https://unsplash.com/photos/utWyPB8_FU8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OXx8a2V5cGFkfGVufDB8fHx8MTY3MTg1MTU1NA&amp;force=true')">
   <div class="container ">
     <div class="hero-text">
       <span class="hero-section">q&amp;a</span>
-      <h1>Cargo Terminal</h1>
-      <p>Dockyard construction planning and review.</p>
+      <h1>Pressing Sample</h1>
+      <p>Sample keypad pressing.</p>
     </div>
   </div>
 </div>
@@ -146,45 +146,10 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="work work-single">
-        <div class="content"><p>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens <em>ferro nocere haud</em>, et Dulichium tui
-male! Quo sed <a href="#vexant-achivi">fuit flexit et</a> hic die solido, gloria?</p>
-<p>Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco <em>vati</em>
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.</p>
+        <div class="content"><p>How to sample the pressing of gamers, whether in the music game mode or digital instrument mode, is a big problem.</p>
+<p>In the initial version of our project, we used the keyboard as input and used the getchar_timeout_us function in pico/stdio.h . The timeout period would be used as the sample period. After switching from the keyboard to the keypad, we had to redesign the sampling method since no input function is built into the SDK for us to deploy for the keypad directly.</p>
+<p>As a solution, we override the original getchar_timeout_us function, which is called get_key_timeout_us, to receive input from the keypad while also having a time limit. We manually set the sample rate of pressing on the keyboard as four times per second by setting the timeout of the keypad input function to 250ms. Doing so could guarantee a stable sample of pressing while not using too much space to store the pressing samples in the flash memory when recording gamers’ own patterns.</p>
 </div>
-      </div>
-    </div>
-    
-    <div class="col-12 pt-4 pt-md-10">
-      <h2 class="mb-2 text-uppercase">Gallery</h2>
-      <div class="masonry">
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x600/?nature"/>
-          </div>
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x300/?travel"/>
-          </div>
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x300/?architecture"/>
-          </div>
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x600/?buildings"/>
-          </div>
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x300/?city"/>
-          </div>
-        
-          <div class="work-image item">
-            <img src="https://source.unsplash.com/random/400x600/?business"/>
-          </div>
-        
       </div>
     </div>
     

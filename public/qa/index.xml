@@ -8,33 +8,34 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Feb 2018 11:52:18 +0700</lastBuildDate><atom:link href="https://ese519-strawberrypi.github.io/qa/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fall Plaza</title>
+      <title>PWM Signal Noise</title>
       <link>https://ese519-strawberrypi.github.io/qa/fall-plaza/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://ese519-strawberrypi.github.io/qa/fall-plaza/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>Using an additional electric capacity to filter high frequency noise.
+We could generate the sounds and send them to the speaker by utilizing the PWM PIO module. We found some apparent loss in the sound quality when listening to the speaker after the amplifier. By using the oscilloscope in Detkin Lab, we find out there is a very obvious overshooting at the beginning of each PWM signal period.
+For both methods we deployed here, i.</description>
     </item>
     
     <item>
-      <title>Modern Hospital</title>
+      <title>Storage Interrupt</title>
       <link>https://ese519-strawberrypi.github.io/qa/modern-hospital/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://ese519-strawberrypi.github.io/qa/modern-hospital/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>Calling additional API save_and_disable_interrupts and restore_interrupts to disable interrupts and recover them.
+When trying to store data in flash memory, we found out that after erasing the flash memory for a certain address range, we are still unable to write it. After checking the Internet, we found out that the interrupts from other read or write requests from the program between these two commands may make the saving or loading data impassible to finish or complete correctly.</description>
     </item>
     
     <item>
-      <title>Cargo Terminal</title>
+      <title>Pressing Sample</title>
       <link>https://ese519-strawberrypi.github.io/qa/cargo-terminal/</link>
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>https://ese519-strawberrypi.github.io/qa/cargo-terminal/</guid>
-      <description>Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa! Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus esse iam feres mortis Plurima.</description>
+      <description>How to sample the pressing of gamers, whether in the music game mode or digital instrument mode, is a big problem.
+In the initial version of our project, we used the keyboard as input and used the getchar_timeout_us function in pico/stdio.h . The timeout period would be used as the sample period. After switching from the keyboard to the keypad, we had to redesign the sampling method since no input function is built into the SDK for us to deploy for the keypad directly.</description>
     </item>
     
   </channel>

@@ -13,10 +13,10 @@ theme = "hugo-hero-theme"
   google_analytics_id=""
 
   [params.logo]
-    mobile = "images/logo-mobile.svg"
+    mobile = "images/logo.jpeg"
     mobile_height = "36px"
     mobile_width = "36px"
-    desktop = "images/logo.svg"
+    desktop = "images/logo.jpeg"
     desktop_height = "29px"
     desktop_width = "217px"
     alt = "Hugo Hero"
@@ -54,11 +54,6 @@ weight = -1
     name = "Q&A"
     url = "/q&a/"
     weight = 4
-
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
